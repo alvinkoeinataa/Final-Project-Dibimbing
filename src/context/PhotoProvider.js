@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import { createPost, getUser, deletePost, UpdatePost, loginApi, registerApi } from "./store/index.js";
+import { createPost, getUser, deletePost, UpdatePost, loginApi, registerApi } from "./api/index.js";
 
 export const PhotoContext = createContext();
 
